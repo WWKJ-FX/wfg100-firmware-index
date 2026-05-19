@@ -1,0 +1,24 @@
+{
+  "radioProtocols": [
+    { "name": "CRSF", "value": "USE_SERIALRX_CRSF", "default": true, "key": 4097, "includesTelemetry": true },
+    { "name": "SBUS", "value": "USE_SERIALRX_SBUS", "default": false, "key": 4103 },
+    { "name": "MAVLINK", "value": "USE_SERIALRX_MAVLINK", "default": false, "key": 4109 }
+  ],
+  "telemetryProtocols": [
+    { "name": "[None]", "value": "", "default": true },
+    { "name": "MAVLINK", "value": "USE_TELEMETRY_MAVLINK", "default": false, "key": 12305 },
+    { "name": "SMARTPORT", "value": "USE_TELEMETRY_SMARTPORT", "default": false, "key": 12306 }
+  ],
+  "generalOptions": [
+    { "name": "GPS", "value": "USE_GPS", "default": true, "key": 16412 },
+    { "name": "Magnetometers", "value": "USE_MAG", "default": true, "key": 16415 },
+    { "name": "OSD (Analog)", "value": "USE_OSD_SD", "default": true, "key": 16416, "group": "OSD", "groupedName": "Analog" },
+    { "name": "Pin IO", "value": "USE_PINIO", "default": true, "key": 16418 },
+    { "name": "VTX", "value": "USE_VTX", "default": true, "key": 16421 }
+  ],
+  "motorProtocols": [
+    { "name": "DSHOT", "value": "USE_DSHOT", "default": true, "key": 8231 },
+    { "name": "PWM", "value": "USE_PWM_OUTPUT", "default": false, "key": 8235 }
+  ]
+}
+

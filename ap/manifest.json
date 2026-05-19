@@ -1,0 +1,34 @@
+{
+  "format-version": "1.0.0",
+  "firmware": [
+    {
+      "platform": "WFG100",
+      "brand_name": "WWKJ WFG100",
+      "board_id": 2047,
+      "mav-type": "Copter",
+      "mav-autopilot": "ARDUPILOTMEGA",
+      "vehicletype": "Copter",
+      "format": "apj",
+      "mav-firmware-version-type": "OFFICIAL",
+      "mav-firmware-version": "4.6.3",
+      "mav-firmware-version-str": "4.6.3",
+      "mav-firmware-version-major": 4,
+      "mav-firmware-version-minor": 6,
+      "mav-firmware-version-patch": 3,
+      "latest": 1,
+      "firmware-name": "ArduCopter",
+      "git-sha": "dbd7f704c5f9",
+      "USBID": [
+        "0x1209/0x5740",
+        "0x1209/0x5741"
+      ],
+      "bootloader_str": [
+        "WFG100",
+        "WFG100-BL"
+      ],
+      "url": "https://wwkj-fx.github.io/wfg100-firmware-index/firmware/ArduCopter-WFG100-4.6.3.apj",
+      "sha256": "f149b433ac744213368bba3dfb469a3772f4f683adb7faea540298227dee68ee",
+      "size": 1401278
+    }
+  ]
+}
